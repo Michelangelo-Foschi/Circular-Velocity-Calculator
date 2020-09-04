@@ -10,7 +10,7 @@ import math
 **math allows us to use different mathematical operations.**
 
 ``` python
-planet = input("What planet will your sat be orbiting? Available: Mercury, Venus, Earth and Mars -> ")
+planet = input("What planet will your sat be orbiting? Available: Mercury, Venus, Earth, Mars, Jupiter, Saturn-> ")
 altitude = input("What's the height of your sat over the surface? In KM:  ") 
 converted_altitude = float(altitude)
 ```
@@ -53,7 +53,7 @@ def saturn():
     result_mm = math.sqrt((saturn[2] * saturn[1]) / totalRadius * 1000)
     result_m = result_mm / 1000
     print("Your sat is orbiting saturn with a circular velocity of",result_m,"m/s")
-    ```
+ ```
 
 **We created a function for all 4 planets (Mercury, Venus, Earth and Mars) and we inserted their radius and mass in their proper array.
 The array also consists of Newton's Universal Gravitational Constant.
