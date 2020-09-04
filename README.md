@@ -42,3 +42,7 @@ def earth():
     result_m = result_mm / 1000
     print("Your sat is orbiting earth with a circular velocity of",result_m,"m/s")
    ```
+
+**We created a function for all 4 planets (Mercury, Venus, Earth and Mars) and we inserted their radius and mass in their proper array.
+The array also consists of Newton's Universal Gravitational Constant.
+We also add up the planet's radius with the altitude of the satellite, so that we get the total distance between M1 and M2.**
