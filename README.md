@@ -68,7 +68,11 @@ def run_func():
     elif planet == "Mercury":
         mercury()
     elif planet == "Earth":
-        earth()    
+        earth()  
+    elif planet == "Jupiter":
+        jupiter() 
+    elif planet == "Saturn":
+        saturn()    
 run_func()
 ```
 
