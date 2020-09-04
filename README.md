@@ -46,3 +46,18 @@ def earth():
 **We created a function for all 4 planets (Mercury, Venus, Earth and Mars) and we inserted their radius and mass in their proper array.
 The array also consists of Newton's Universal Gravitational Constant.
 We also add up the planet's radius with the altitude of the satellite, so that we get the total distance between M1 and M2.**
+
+```python 
+def run_func():
+    if planet == "Mars":
+        mars()
+    elif planet == "Venus":
+        venus()  
+    elif planet == "Mercury":
+        mercury()
+    elif planet == "Earth":
+        earth()    
+run_func()
+```
+
+**Finally we create a function, that runs the function of the planet that the user chose.**
