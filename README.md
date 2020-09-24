@@ -7,7 +7,7 @@ We just need to import the math package to use the square root function.
 ``` python
 import math
 ```
-**math allows us to use different mathematical operations.**
+**The "math" library allows us to use different mathematical operations.**
 
 ``` python
 planet = input("What planet will your sat be orbiting? Available: Mercury, Venus, Earth, Mars, Jupiter, Saturn-> ")
@@ -55,7 +55,7 @@ def saturn():
     print("Your sat is orbiting saturn with a circular velocity of",result_m,"m/s")
  ```
 
-**We created a function for all 4 planets (Mercury, Venus, Earth and Mars) and we inserted their radius and mass in their proper array.
+**We created a function for 6 planets (Mercury, Venus, Earth, Mars, Jupiter and Saturn) and we inserted their radius and mass in their proper array.
 The array also consists of Newton's Universal Gravitational Constant.
 We also add up the planet's radius with the altitude of the satellite, so that we get the total distance between M1 and M2.**
 
@@ -76,6 +76,6 @@ def run_func():
 run_func()
 ```
 
-**Finally we create a function, that runs the function of the planet that the user chose.**
+**Finally we create a function, that runs the function of the planet that the user chooses.**
 
 ## **END**
